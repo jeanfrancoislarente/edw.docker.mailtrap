@@ -3,7 +3,7 @@ FROM debian:stable-slim
 LABEL maintainer.original="David Batranu <david.batranu@eaudeweb.ro>"
 LABEL maintainer.current="ipunkt Business Solutions <info@ipunkt.biz>"
 
-ENV ROUNDCUBE_VERSION="1.3.1"
+ENV ROUNDCUBE_VERSION="1.4.9"
 ENV DEBIAN_FRONTEND noninteractive
 
 ENV MT_USER mailtrap
